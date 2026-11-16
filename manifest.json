@@ -1,0 +1,10 @@
+{
+  "name": "FreshTrack - Food Waste Reduction",
+  "short_name": "FreshTrack",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f5f8f5",
+  "theme_color": "#174b37",
+  "description": "Food inventory and expiry management application",
+  "icons": []
+}
