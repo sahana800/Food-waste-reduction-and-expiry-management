@@ -1,0 +1,45 @@
+FRESHTRACK — START HERE (WINDOWS)
+
+This package includes the complete website and its local PowerShell launcher.
+You do not need to install Node.js, Python, or a paid API.
+
+RUN FRESHTRACK ON YOUR COMPUTER
+
+1. Extract this ZIP file.
+   In File Explorer, right-click the ZIP and choose “Extract All…”.
+
+2. Open the extracted folder. You should see index.html and serve-local.ps1.
+
+3. Click the File Explorer address bar, type cmd, and press Enter.
+   A Command Prompt opens in the correct folder.
+
+4. Run this command:
+
+   powershell -NoProfile -ExecutionPolicy Bypass -File .\serve-local.ps1
+
+5. Open this address in Chrome or Edge:
+
+   http://127.0.0.1:8000
+
+Keep the Command Prompt open while using FreshTrack. Press Ctrl+C in that
+window to stop it.
+
+CREATE AN ACCOUNT
+
+Choose “Create account”, enter your name, email, and password twice. FreshTrack
+signs you in immediately; no email confirmation is sent. Your account and data
+stay in this browser on this computer. They do not sync to other devices.
+
+IMPORTANT LIMITS
+
+- This simple account mode is a local demo, not server-protected authentication.
+- Passwords cannot be recovered by email. Use Food inventory → Backup JSON to
+  save a copy of your food data.
+- Clearing browser site data removes local accounts and inventories.
+- This package does not connect to Supabase or another online database.
+
+DEPLOYING TO VERCEL
+
+Upload the contents of this extracted folder to your Vercel project. Vercel
+serves index.html directly; no build command is needed. Accounts still remain
+separate on each browser and do not sync between devices.
